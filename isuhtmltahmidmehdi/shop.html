@@ -1,0 +1,60 @@
+<html>
+  <head>
+	<title>Mangolicious</title>
+<style type="text/css">
+body {background-image:url("orangebg.jpg")}
+h1 {font-family:"viner hand ITC";font-size:50;}
+p {font-family:"verdana";font-size:20;}
+</style>
+<script type="text/javascript">
+function show_alert() {alert("Thank you for purchasing Mangolicious, you will receive your order as soon as possible");}
+</script>
+
+  </head>
+<body>
+<FORM METHOD="POST" ACTION="">
+<h1>Shop</h1>
+<p>If you would like to purchase some Mangolicious, fill out the form, and we'll ship it to you as soon as possible</p>
+<ul>
+<li>A Large bottle is $4.99</li> 
+<li>A Medium bottle is $2.99</li>
+<li>A Small bottle is $1.49</li>
+</ul>
+<fieldset>
+<legend>Information</legend>
+<table border=0>
+<tr>
+<td>First Name:<input type="text" size=20></td></tr>
+<tr><td>Last Name:<input type="text" size=20></td></tr>
+<tr><td>Email Address:<input type="text" size=40></td></tr>
+<tr><td>Street Address:<input type="text" size=40> City:<input type="text" size=20></td></tr>
+<tr><td>Province:<select name="province">
+	<option value="BC">BC</option>
+	<option value="AB">AB</option>
+	<option value="SK">SK</option>
+	<option value="MT">MT</option>
+	<option value="ON">ON</option>
+	<option value="QC">QC</option>
+	<option value="NFLD">NFLD</option>
+	<option value="NS">NS</option>
+	<option value="NB">NB</option>
+	<option value="PEI">PEI</option>
+	<option value="YK">YK</option>
+	<option value="NWT">NWT</option>
+	<option value="NV">NV</option>
+	</select></td></tr>
+<tr><td>Postal Code:<input type="text" size=3> <input type="text" size=3></td></tr></table>
+</fieldset>
+
+<br>
+<table border=0>
+<tr>
+<td>Which Bottle size would you like?</td></tr>
+<tr><td><input type="checkbox" name=large>Large (1.5 L) If checked, How many bottles?<input type="text" size=3></td></tr>
+<tr><td><input type="checkbox" name=med>Medium (710 mL) If checked, How many bottles?<input type="text" size=3></td></tr>
+<tr><td><input type="checkbox" name=small>Small (500 mL) If checked, How many bottles?<input type="text" size=3></td></tr>
+</table>
+<INPUT TYPE="submit" VALUE="Purchase!" NAME="B1" onclick="show_alert()">
+</FORM>
+</body>
+  </html>
